@@ -60,10 +60,3 @@ floorVal = floor 9.999
 trueAndFalse = True && False
 trueOrFalse = True || False
 notTrue = not True
-
-
-
-
-
-
-
