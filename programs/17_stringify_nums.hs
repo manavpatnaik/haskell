@@ -1,3 +1,4 @@
+-- This is a kind of pattern matching
 tellNum :: (Integral a) => a -> String
 tellNum 1 = "One"
 tellNum 2 = "Two"
