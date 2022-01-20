@@ -1,5 +1,13 @@
-firstElt :: Num a => (a,a,a) -> a
-firstElt (a, _, _) = a
+firstElt :: a -> b -> c -> a
+firstElt a _ _ = a
+
+secondElt :: a -> b -> b
+secondElt _ b = b
+
+thirdElt :: a -> b -> c -> c
+thirdElt _ _ c = c
 
 main = do
-    firstElt 1 2 3
+    print(firstElt 1 2 3)
+    print(secondElt 1 2)
+    print(thirdElt 1 2 3)
