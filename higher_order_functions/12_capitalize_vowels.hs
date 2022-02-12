@@ -15,6 +15,9 @@ isVowel a = a `elem` "aeiou"
 returnOnlyCapitalizedVowels :: String -> String
 returnOnlyCapitalizedVowels l = map toUpper (filter isVowel l)
 
+-- Using function composisiton
+-- returnOnlyCapitalizedVowels l = map toUpper . filter isVowel l
+
 main = do
     print(capitalizeVowels "hello")
     print(returnOnlyCapitalizedVowels "hello")
