@@ -12,7 +12,7 @@ remRec35 (x:xs)
             | otherwise = False 
 
 main = do
-    print(remRec35 [1..20])
+    print(remRec35 [1..50])
     print(remRec35 [])  
     print(remRec35 [3,5,6])  
     print(remRec35 [11,13,17,19])  

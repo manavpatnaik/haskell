@@ -1,7 +1,7 @@
-printOddNums [] = ""
-printOddNums (x : xs)
-  | odd x = show x ++ " " ++ printOddNums xs
-  | otherwise = printOddNums xs
+  printOddNums [] = ""
+  printOddNums (x : xs)
+    | odd x = show x ++ " " ++ printOddNums xs
+    | otherwise = printOddNums xs
 
-main = do
-    print(printOddNums [1,2,3,4,5,6,7,8,9])
+  main = do
+      print(printOddNums [1,2,3,4,5,6,7,8,9])
